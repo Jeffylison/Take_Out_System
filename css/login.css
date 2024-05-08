@@ -1,0 +1,90 @@
+.body {
+  margin: 100px auto;
+  width: 380px;
+  height: 500px;
+  border-radius: 1ch;
+  background-color: rgb(192, 192, 192);
+}
+.body .logo_title {
+  padding: 15% 0 0 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.body .logo_text {
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.login_user {
+  /* margin-top: 20px; */
+  margin: 20px auto;
+  width: 260px;
+  height: 40px;
+}
+.user {
+  width: 260px;
+  height: 40px;
+  border-radius: 1ch;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.login_pwd {
+  margin: 10px auto;
+  width: 260px;
+  height: 40px;
+}
+.pwd {
+  width: 260px;
+  height: 40px;
+  border-radius: 1ch;
+  padding-left: 10px;
+  font-size: 18px;
+}
+.i_dont_know_pwd {
+  font-size: 15px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.login {
+  margin: 30px auto 0;
+  width: 120px;
+  height: 60px;
+}
+.login button {
+  width: 120px;
+  height: 60px;
+  border-radius: 1ch;
+  border-width: 0;
+  background-color: pink;
+}
+.login button:hover {
+  background-color: rgb(252, 216, 222);
+}
+
+.circle {
+  margin-top: 30px;
+  width: 380px;
+  height: 60px;
+  background-color: pink;
+}
+
+.login_qq {
+  float: left;
+  margin-left: 80px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.login_wx {
+  float: right;
+  margin-right: 80px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+}

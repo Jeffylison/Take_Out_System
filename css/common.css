@@ -1,0 +1,36 @@
+/* 顶栏 */
+.top {
+    height: 40px;
+    background-color: #2ed2e9;
+}
+
+.top a {
+    float: left;
+    margin: 10px 30px;
+    width: 100px;
+    height: 40px;
+    background-color: pink;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    font-size: 0px;
+}
+
+/* 尾栏版权 */
+.footer {
+    height: 42px;
+    background-color: #333;
+}
+
+.footer .box {
+    width: 1393px;
+    height: 42px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+
+.footer .box div {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    line-height: 42px;
+}

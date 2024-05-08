@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XXX</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/register.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+</head>
+<body>
+    <div class="body" id="body">
+        <div class="UserName">
+            <input type="text" placeholder="输入用户名">
+        </div>
+        <div class="UserPwd">
+            <input type="password" id="UserPwd1" placeholder="输入密码" v-model="Pwd1">
+            <input type="password" id="UserPwd2" placeholder="确认密码" v-model="Pwd2">
+        </div>
+        <div class="payphone">
+            <input type="text" placeholder="请输入手机号">
+            <span><button :class="{'payphonePwd1':isP1, 'payphonePwd2':!isP1}" @click="phoneChange()">{{ text }}</button></span>
+        </div>
+        <div class="PhonePwd">
+            <input type="text" placeholder="输入验证码">
+        </div>
+
+        <button class="go" @click="RegisterBool()">注册</button>
+    </div>
+
+    <!-- 版权 -->
+  <div class="footer">
+    <div class="box">
+        <div>NEFU-XXX-XXX</div>
+    </div>
+  </div>
+</body>
+<script src="./JS/app.js"></script>
+</html>
