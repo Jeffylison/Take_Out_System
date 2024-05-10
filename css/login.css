@@ -1,9 +1,14 @@
+body {
+  background-image: linear-gradient(to top, #fc4371 0%, #ff906e 100%);
+}
+
+
 .body {
   margin: 100px auto;
   width: 380px;
   height: 500px;
   border-radius: 1ch;
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(239, 239, 239);
 }
 .body .logo_title {
   padding: 15% 0 0 0;
@@ -59,17 +64,18 @@
   height: 60px;
   border-radius: 1ch;
   border-width: 0;
-  background-color: pink;
+  background-color: #ffa387;
+  font-size: 15px;
 }
 .login button:hover {
-  background-color: rgb(252, 216, 222);
+  background-color: #ffbeaa;
 }
 
 .circle {
   margin-top: 30px;
   width: 380px;
   height: 60px;
-  background-color: pink;
+  background-color: rgb(239, 239, 239);
 }
 
 .login_qq {
@@ -79,6 +85,7 @@
   height: 60px;
   border-radius: 50%;
   background-color: #fff;
+  /* background-image: url(../images/qq.png); */
 }
 .login_wx {
   float: right;

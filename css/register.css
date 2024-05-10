@@ -1,3 +1,8 @@
+body {
+    background-image: linear-gradient(to top, #ff4372 0%, #fa6c40 100%);
+}
+
+
 .body {
     margin: 80px auto 120px;
     width: 400px;
