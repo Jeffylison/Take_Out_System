@@ -1,0 +1,60 @@
+.body {
+    margin-left: 170px;
+}
+
+.head {
+    margin: 20px 0 0 0;
+}
+.head div{
+    float: left;
+    display: inline-block;
+    /* margin: 30px 0 10px 20px; */
+    width: 100px;
+    height: 40px;
+    background-color: skyblue;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.main {
+    float: left;
+    margin-top: 20px;
+    width: 1300px;
+    height: 1000px;
+    background-color: skyblue;
+}
+
+.mainhead {
+    margin-top: 20px;
+    width: 1300px;
+    height: 60px;
+    background-color: pink;
+
+    .order_id {
+        float: left;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .order_tel {
+        float: left;
+        padding: 15px;
+        font-size: 20px;
+
+    }
+
+    input {
+        margin-left: 20px;
+        padding-left: 10px;
+        width: 200px;
+        height: 30px;
+    }
+
+    .search {
+        float: light;
+        margin: 8px 200px 0 50px;
+        width: 80px;
+        height: 45px;
+        background-color: #000;
+        color:#fff;
+    }
+}

@@ -1,0 +1,53 @@
+.header {
+    height: 60px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    background-color: skyblue;
+}
+
+h1 {
+    float: left;
+    margin: 10px 15px;
+    width: 100px;
+    height: 40px;
+    background-color: red;
+}
+
+/* 左侧栏 */
+.left_color {
+    float: left;
+    width: 150px;
+    height: 1130px;
+    background-color: skyblue;
+}
+.left {
+    float: left;
+    padding: 0 20px;
+    position: fixed;
+    width: 150px;
+    height: 1130px;
+    background-color: skyblue;
+
+    /* 行高属于控制文字的属性, 能继承 */
+    line-height: 44px;
+}
+.left ul {
+
+}
+.left li {
+    margin: 20px 0;
+}
+
+.left span {
+    float: right;
+}
+
+.left a {
+    font-size: 14px;
+    padding: 10px 0;
+    color: #000;
+}
+
+.left a:hover {
+    color: #fff;
+}

@@ -1,0 +1,170 @@
+.body {
+    margin-left: 170px;
+}
+
+.todaymoney {
+    margin-top: 20px;
+    width: 1300px;
+    height: 170px;
+    background-color: skyblue;
+
+    .title {
+        padding: 10px 0 10px 10px;
+    }
+    .box {
+        float: left;
+        display: inline-block;
+        margin: 5px 0 5px 100px;
+        width: 200px;
+        height: 100px;
+        background-color: red;
+    }
+    /* 营业额 */
+    .money {
+        padding: 10px 0 0 10px;
+    }
+    .symbol {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+    .box_order {
+        padding: 10px 0 0 10px;
+    }
+    .percent {
+        padding: 10px 0 0 10px;
+    }
+    .users {
+        padding: 10px 0 0 10px;
+    }
+}
+.order {
+    margin-top: 20px;
+    width: 1300px;
+    height: 150px;
+    background-color: skyblue;
+
+    .order_title {
+        padding: 10px 0 10px 10px;
+    }
+    .order_box {
+        float: left;
+        display: inline-block;
+        margin: 5px 0 5px 32px;
+        width: 220px;
+        height: 80px;
+        background-color: red;
+        font-size: 20px;
+        padding: 25px 10px;
+    }
+    
+}
+.menus_set {
+    margin-top: 20px;
+    width: 1300px;
+    height: 150px;
+    background-color: rgb(38, 81, 124);
+}
+.menus {
+    float: left;
+    width: 645px;
+    height: 150px;
+    background-color: skyblue;
+
+    .menus_title {
+        padding: 10px 0 10px 10px;
+    }
+    .menus_much {
+        float: left;
+        margin: 5px 0 5px 32px;
+        width: 220px;
+        height: 80px;
+        background-color: red;
+        font-size: 20px;
+        padding: 25px 10px;
+    }
+    .menus_stop {
+        float: left;
+        margin: 5px 0 5px 32px;
+        width: 220px;
+        height: 80px;
+        background-color: red;
+        font-size: 20px;
+        padding: 25px 10px;
+    }
+    .add_menus {
+        float: right;
+        margin: 5px 20px 5px 20px;
+        width: 100px;
+        height: 80px;
+        /* background-color: red; */
+        font-size: 15px;
+        padding: 0 20px;
+
+        .add_menus_picture {
+            margin-top: 10px;
+            width: 60px;
+            height: 60px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+
+    }
+}
+.set {
+    float: left;
+    margin-left: 10px;
+    width: 645px;
+    height: 150px;
+    background-color: skyblue;
+
+    .set_title {
+        padding: 10px 0 10px 10px;
+    }
+    .set_much {
+        float: left;
+        margin: 5px 0 5px 32px;
+        width: 220px;
+        height: 80px;
+        background-color: red;
+        font-size: 20px;
+        padding: 25px 10px;
+    }
+    .set_stop {
+        float: left;
+        margin: 5px 0 5px 32px;
+        width: 220px;
+        height: 80px;
+        background-color: red;
+        font-size: 20px;
+        padding: 25px 10px;
+    }
+    .add_set {
+        float: right;
+        margin: 5px 20px 5px 20px;
+        width: 100px;
+        height: 80px;
+        /* background-color: red; */
+        font-size: 15px;
+        padding: 0 20px;
+
+        .add_set_picture {
+            margin-top: 10px;
+            width: 60px;
+            height: 60px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+
+    }
+}
+
+.ordermain {
+    margin-top: 20px;
+    width: 1300px;
+    height: 600px;
+    background-color: skyblue;
+
+    .ordermain_title {
+        padding: 10px 0 10px 10px;
+    }
+}
