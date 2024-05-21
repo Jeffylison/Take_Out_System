@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="./css/maincommon.css">
   <link rel="stylesheet" href="./css/workbench.css">
 
-  <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/3.2.31/vue.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="./JS/workbench.js"></script>
+
 </head>
 <body>
     <!-- 头 -->
@@ -93,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="ordermain">
+        <div class="ordermain" id="demo">
             <div class="ordermain_title">订单信息</div>
             <div class="ordermain_main">
                 <table class="ordermain_table">
@@ -104,16 +104,30 @@
                         <th>下单时间</th>
                         <th>金额</th>
                     </tr>
-                    <tr>
-                        <td>001</td>
-                        <td>00001</td>
-                        <td>xxn</td>
-                        <td>19:22</td>
-                        <td>10元</td>
+                    <tr v-for="(emp, index) in emps">
+                        <td>{{ emp.order_id }}</td>
+                        <td>{{ emp.user_id }}</td>
+                        <td>{{ emp.username }}</td>
+                        <td>{{ emp.time }}</td>
+                        <td>{{ emp.money }}元</td>
                     </tr>
                 </table>
             </div>
         </div>
     </div>
-
+<!-- <script>
+    export default {
+        data() {
+        emps:[]
+    },
+    mounted() {
+        axios.get("https://yapi.pro/mock/397320/ordermain").then(result =>{
+            this.emps = result.data.data;
+            console.log(this.emps);
+        })
+    }
+    }
+</script> -->
+<script src="./JS/workbench.js"></script>
 </body>
+</html>
