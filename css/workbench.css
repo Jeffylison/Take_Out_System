@@ -168,3 +168,24 @@
         padding: 10px 0 10px 10px;
     }
 }
+
+.ordermain_main {
+    background-color: greenyellow;
+    width: 1300px;
+    height: 500px;
+}
+.ordermain_table {
+    background-color: pink;
+    width: 1300px;
+    border-collapse: collapse;
+    tr {
+        font-size: 20px;
+        text-align: center;
+        height: 60px;
+        
+        th {
+            border: 2px solid;
+            
+        }
+    }
+}
