@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to top, #fc4371 0%, #ff906e 100%);
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -8,7 +8,7 @@ body {
   width: 380px;
   height: 500px;
   border-radius: 1ch;
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(223, 223, 223);
 }
 .body .logo_title {
   padding: 15% 0 0 0;
@@ -64,18 +64,18 @@ body {
   height: 60px;
   border-radius: 1ch;
   border-width: 0;
-  background-color: #ffa387;
+  background-color: #ffffff;
   font-size: 15px;
 }
-.login button:hover {
+/* .login button:hover {
   background-color: #ffbeaa;
-}
+} */
 
 .circle {
   margin-top: 30px;
   width: 380px;
   height: 60px;
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(223, 223, 223);
 }
 
 .login_qq {

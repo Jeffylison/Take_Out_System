@@ -1,13 +1,12 @@
 body {
-    background-image: linear-gradient(to top, #ff4372 0%, #fa6c40 100%);
+    background-color: rgb(255, 255, 255);
 }
-
 
 .body {
     margin: 80px auto 120px;
     width: 400px;
     height: 500px;
-    background-color: pink;
+    background-color: rgb(223, 223, 223);
     border-radius: 1ch;
 }
 
@@ -79,12 +78,12 @@ input {
         height: 100%;
         border-radius: 1ch;
         border-width: 0;
-        background-color: #909090;
+        background-color: #ffffff;
     }
 }
 
 .payphone .payphonePwd1:hover {
-    background-color: #fff;
+    background-color: #909090;
 }
 
 .PhonePwd {
@@ -111,8 +110,9 @@ input {
     font-size: 18px;
     border-radius: 1ch;
     border-width: 0;
-}
-
-.go:hover {
     background-color: #fff;
 }
+/* 
+.go:hover {
+    background-color: #fff;
+} */

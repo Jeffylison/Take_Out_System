@@ -2,7 +2,7 @@
     height: 60px;
     /* margin-top: 30px;
     margin-bottom: 30px; */
-    background-color: skyblue;
+    background-color: white;
 }
 
 h1 {
@@ -10,7 +10,7 @@ h1 {
     margin: 10px 15px;
     width: 100px;
     height: 40px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 /* 左侧栏 */
@@ -18,7 +18,7 @@ h1 {
     float: left;
     width: 150px;
     height: 1130px;
-    background-color: skyblue;
+    background-color: white;
 }
 .left {
     float: left;
@@ -26,7 +26,7 @@ h1 {
     position: fixed;
     width: 150px;
     height: 1130px;
-    background-color: skyblue;
+    background-color: white;
 
     /* 行高属于控制文字的属性, 能继承 */
     line-height: 44px;
@@ -49,5 +49,7 @@ h1 {
 }
 
 .left a:hover {
-    color: #fff;
+    /* color: #fff; */
+    font-size: 18px;
+    font-weight: 1000;
 }

@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(216, 216, 216);
+}
+
 .body {
     margin-left: 170px;
 }
@@ -11,7 +15,7 @@
     /* margin: 30px 0 10px 20px; */
     width: 100px;
     height: 40px;
-    background-color: skyblue;
+    background-color: white;
     font-size: 15px;
     padding: 10px;
 }
@@ -21,14 +25,14 @@
     margin-top: 20px;
     width: 1300px;
     height: 1000px;
-    background-color: skyblue;
+    background-color: rgb(239, 239, 239);
 }
 
 .mainhead {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 1300px;
     height: 60px;
-    background-color: pink;
+    background-color: white;
 
     .order_id {
         float: left;
@@ -56,5 +60,21 @@
         height: 45px;
         background-color: #000;
         color:#fff;
+    }
+}
+
+.ordermain_table {
+    background-color: white;
+    width: 1300px;
+    border-collapse: collapse;
+    tr {
+        font-size: 20px;
+        text-align: center;
+        height: 60px;
+        
+        th {
+            border: 2px solid;
+            
+        }
     }
 }
